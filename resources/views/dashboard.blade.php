@@ -2,8 +2,7 @@
 @section('title', 'Dashboard')
 @section('content')
     <div class="dashboard-container">
-        <h4 class="mb-3">Mulailah menjelajahi bloomify, {{ $username ?? 'User' }} <i class="bi bi-hearts"></i></h4>
-
+        <x-alert type="success" message="Mulailah menjelajahi bloomify, {{ $username }}!" />
         <div class="d-flex flex-wrap gap-4 mt-3">
             <div class="card-dashboard">
                 <div class="mb-2"><i class="bi bi-people-fill"></i></div>
