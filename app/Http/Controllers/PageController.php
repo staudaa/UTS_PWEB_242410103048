@@ -35,8 +35,8 @@ class PageController extends Controller
         $password = $request->query('password');
         $dataBunga = [
             ['icon' => '', 'nama' => 'Fresh Flower Bouquet', 'kategori' => 'Fresh Flower', 'harga' => 'Rp175.000', 'stok' => 30, 'deskripsi' => 'Simbol cinta dan kasih sayang.'],
-            ['icon' => '', 'nama' => 'Pipe Cleaner Giftbox', 'kategori' => 'Buket', 'Pipe Cleaner' => 'Rp90.000', 'stok' => 20, 'deskripsi' => 'Lembut dan elegan untuk setiap momen.'],
-            ['icon' => '', 'nama' => 'Lily Bouquet', 'kategori' => 'Dekorasi', 'Wedding' => 'Rp200.000', 'stok' => 15, 'deskripsi' => 'Harum dan memesona, cocok untuk hadiah.'],
+            ['icon' => '', 'nama' => 'Pipe Cleaner Giftbox', 'kategori' => 'Pipe Cleaner Giftbox', 'harga' => 'Rp90.000', 'stok' => 20, 'deskripsi' => 'Lembut dan elegan untuk setiap momen.'],
+            ['icon' => '', 'nama' => 'Lily Bouquet', 'kategori' => 'Wedding Bouquet', 'harga' => 'Rp200.000', 'stok' => 15, 'deskripsi' => 'Harum dan memesona, cocok untuk hadiah.'],
         ];
 
         $testimoni = [
